@@ -1,0 +1,35 @@
+name: first_challenge
+description: A demo project for Code
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  rxdart: ^0.25.0
+
+  file_picker: ^2.1.6
+
+  flutter_modular: ^2.0.1
+
+  dartz: any
+
+  equatable: any
+  
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  modular_codegen: any
+  build_runner: any
+
+flutter:
+  uses-material-design: true
